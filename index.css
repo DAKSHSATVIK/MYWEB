@@ -1,0 +1,74 @@
+body{
+	/*background-color: #b2f78b;background-image: linear-gradient(to right ,#18611d,#8fc993,black);*/
+	background-image: url('aaa.jpg');
+	background-position: center top; 
+	background-repeat: no-repeat;
+	 
+	}
+.title{
+	/*background-image: linear-gradient(white,yellow);*/
+	font-family: Algerian;
+	font-weight: bolder;
+	font-size: 25px;
+	display: block;
+	color: #ffbb00;
+	text-align: center;
+	border-style:groove;
+	/*border-bottom-right-radius: 100px;
+	border-bottom-left-radius: 100px;*/
+	padding:1px;
+	border-color:white;
+	border-width:10px;
+	background-image-opacity: 0.5;
+}
+#a{
+	margin-left:23%;
+	margin-right:20%;
+	}
+h1{
+	font-style: italic;
+	font-stretch: expanded;
+	font-size:45px;
+	color: white;
+}
+/*h1{
+	font-family: "Cooper Black",calibri;
+	font-size: 50px;
+	font-style: italic;
+	font-stretch: expanded;
+	color: white;
+
+}*/
+h3{
+	font-style: italic;
+	font-family:calibri; 
+	font-size: 25px;
+	color: white;
+	}
+#lin{
+	border-color: white;
+	float: right;
+	display: inline-block;
+	border-style: ridge;
+	text-decoration:none;
+	font-size:40px;
+	color:white;
+	/*background-color: #f2acaa;*/
+	border-radius: 100px;
+	padding:10px;
+	font-style: italic;
+	font-family:"Agency Fb";
+	background-image: radial-gradient(white,purple);
+}
+#lin:hover{
+	background: #e6ed13;
+	color: red;
+
+}
+#lin:focus{
+	background: black;
+	color: white;
+}
+#link:visited{
+	text-decoration: none;
+}
