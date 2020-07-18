@@ -1,74 +1,93 @@
-body{
-	/*background-color: #b2f78b;background-image: linear-gradient(to right ,#18611d,#8fc993,black);*/
-	background-image: url('aaa.jpg');
-	background-position: center top; 
-	background-repeat: no-repeat;
-	 
-	}
-.title{
-	/*background-image: linear-gradient(white,yellow);*/
-	font-family: Algerian;
-	font-weight: bolder;
-	font-size: 25px;
-	display: block;
-	color: #ffbb00;
-	text-align: center;
-	border-style:groove;
-	/*border-bottom-right-radius: 100px;
-	border-bottom-left-radius: 100px;*/
-	padding:1px;
-	border-color:white;
-	border-width:10px;
-	background-image-opacity: 0.5;
-}
-#a{
-	margin-left:23%;
-	margin-right:20%;
-	}
-h1{
-	font-style: italic;
-	font-stretch: expanded;
-	font-size:45px;
+header{
+	background-image: url(..//img/aaa.jpg);
+	background-height:100px;
 	color: white;
-}
-/*h1{
-	font-family: "Cooper Black",calibri;
+	font-family: jokerman;
 	font-size: 50px;
-	font-style: italic;
-	font-stretch: expanded;
-	color: white;
-
-}*/
-h3{
-	font-style: italic;
-	font-family:calibri; 
-	font-size: 25px;
-	color: white;
-	}
-#lin{
-	border-color: white;
-	float: right;
+	text-align: center;
+	padding: 40px;
+}
+nav ul{
+	list-style: none;
+	text-align: center;
+	background-color: #5334e7;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #5334e7;
+}
+nav li{
+	width:100px;
 	display: inline-block;
-	border-style: ridge;
-	text-decoration:none;
-	font-size:40px;
-	color:white;
-	/*background-color: #f2acaa;*/
-	border-radius: 100px;
-	padding:10px;
-	font-style: italic;
-	font-family:"Agency Fb";
-	background-image: radial-gradient(white,purple);
+	border-width:3px groove;
+	line-height: 50px;
+	font-size: 100%;
+	border-color: yellow;
+	font-family: calibri;
 }
-#lin:hover{
-	background: #e6ed13;
-	color: red;
-
+nav li:last-child{
+	border-right: none;
 }
-#lin:focus{
-	background: black;
+nav li li{
+	border-right: none;
+}
+nav a{
 	color: white;
-}
-#link:visited{
 	text-decoration: none;
+	display: block;
+	padding-left: 2%;
+	transition-property:background-color,padding;
+	transition-delay: 0.1s;
+	transition-duration: 0.5s;
 }
+nav a:hover{
+	color:purple;
+	text-decoration: none;
+	background-color: #e49e36;
+	/*padding-right:30px;*/
+	/*padding-left: 30px;*/
+}
+nav li li{
+font-size: 0.8em;
+}
+nav > ul > li{
+	text-align: center;
+}
+nav>ul>li>a{
+	padding-left: 0;
+}
+nav li ul{
+	position:absolute;
+	display: none;
+	width: inherit;
+	}
+nav li:hover ul{
+	display: block;
+	text-transform: bold;
+}
+nav li ul li{
+	display:block;
+}
+
+/*upto here it sholud be on every page*/
+div img{
+	width: 20%;
+	height: 25%;
+	border-style: ridge;
+	align-self: center;
+	transition-property: width,border-radius,padding,height;
+	transition-duration: 0.5s;
+	transition-timing-function: linear;
+	transition-delay: 0.1s; 
+	margin: 10px;
+	border-bottom-left-radius: 40px;
+	border-top-right-radius:40px;
+}
+div img:hover{
+	width: 25%;
+	height: 30%;
+	border-style:groove;
+	padding: 20px;
+	cursor:zoom-in;
+	
+}
+
